@@ -3,16 +3,17 @@ import {
   PASSWORD_CHANGED,
 } from './types';
 
-export const emailChanged = (text) => {
+
+export function emailChanged(text) {
   return {
     type: EMAIL_CHANGED,
     payload: text
   };
-};
+}
 
-export const passwordChanged = (text) => {
+export function passwordChanged(text) {
   return {
     type: PASSWORD_CHANGED,
     payload: text
   };
-};
+}
