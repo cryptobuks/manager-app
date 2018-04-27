@@ -29,7 +29,7 @@ function loginUserSuccess(dispatch, user) {
     payload: user
   });
 
-  Actions.employeeList();
+  Actions.main();
 }
 
 function loginUserFail(dispatch) {
